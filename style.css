@@ -1,0 +1,51 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#mainMenu .nav-link {
+  color: #00a3e5;
+}
+
+#mainMenu .nav-link:hover,
+#mainMenu .nav-link.active {
+  background: #00a3e5;
+  color: #262626;
+  border-radius: 5px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #262626;
+}
+
+#work {
+  padding: 5rem;
+}
+
+#contact {
+  background: url("./Img/map.jpg");
+}
+
+#footer ul li a {
+  color: #262626;
+  text-decoration: none;
+}
+
+#footer ul li a:hover {
+  color: #00a3e5;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  #slider {
+    padding-top: 80px;
+  }
+
+  #about {
+    padding: 25px;
+  }
+
+  #about .col-md-6.align-self-center {
+    padding: 25px;
+  }
+}
